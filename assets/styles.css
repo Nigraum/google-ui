@@ -3,3 +3,31 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+@media (max-width: 1080px) {
+    html {
+        font-size: 93.75%;
+    }
+}
+
+@media (max-width: 720px) {
+    html {
+        font-size: 87.5%;
+    }
+}
+
+:root {
+    --primary: #3c4043;
+    --seconday: rgba(0, 0, 0, .87);
+    --tertiary: #70757a;
+
+    --box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+    --box-shadow2: 0 1px 6px rgb(32 33 36 / 28%);
+    --background-button: #f8f9fa;
+    --background: #fff;
+    --background-footer: #f2f2f2;
+}
+
+body {
+    background: var(--background);
+}
