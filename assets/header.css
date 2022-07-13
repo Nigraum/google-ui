@@ -1,1 +1,16 @@
-a
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+}
+
+.header ul {
+    list-style: none;
+    display: flex;
+    column-gap: 15px;
+}
+
+.header li a {
+
+}
