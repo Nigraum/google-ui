@@ -8,5 +8,31 @@
 }
 
 .main-buttons {
+  display: flex;
+  column-gap: 8px;
   margin-top: 10px;
+}
+
+.main-buttons button {
+  font-size: 14px;
+  padding: 0 16px;
+  border-radius: 4px;
+  height: 36px;
+  background: var(--background-button);
+  border: 1px solid var(--background-button);
+}
+
+.main-buttons button:hover {
+  box-shadow: var(--box-shadow);
+  border-color: #dadce0;
+}
+
+.main p {
+  font-size: 13px;
+  line-height: 28px;
+  color: var(--primary);
+}
+
+.main p a {
+  color: #1a0dab;
 }
