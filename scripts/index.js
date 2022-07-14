@@ -6,5 +6,5 @@ function handleFocusInput() {
 
 
 function handleBlurInput() {
-  searchContent.classList.remove('active')
+  setTimeout(() => searchContent.classList.remove('active'), 200)
 }
