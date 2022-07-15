@@ -112,3 +112,16 @@
     background: #e8f0fe;
     border-radius: 8px;
 }
+
+.app-item img {
+    width: 40px;
+    height: auto;
+}
+
+.app-item strong {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #202124;
+    letter-spacing: 0.09px;
+}
