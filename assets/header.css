@@ -97,3 +97,18 @@
     gap: 12px;
     padding-left: 20px;
 }
+
+.app-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 6px;
+    padding: 10px;
+    transition: all 0.2s;
+}
+
+.app-item:hover {
+    text-decoration: none;
+    background: #e8f0fe;
+    border-radius: 8px;
+}
