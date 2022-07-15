@@ -85,3 +85,10 @@
     opacity: 1;
     visibility: visible;
 }
+
+.app-group {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 12px;
+    padding-left: 20px;
+}
